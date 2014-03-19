@@ -6,7 +6,7 @@
 // IDECodeSnippetIdentifier: 2901C734-9EB0-4411-8D84-39567CB32BD1
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
-// IDECodeSnippetVersion: 0
+// IDECodeSnippetVersion: 2
 - (id)init {
 	return [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil][0];
 }
