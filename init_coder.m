@@ -1,6 +1,7 @@
 // init coder
-// 
+// init coder
 //
+// IDECodeSnippetCompletionPrefix: koo_init_coder
 // IDECodeSnippetCompletionScopes: [ClassImplementation]
 // IDECodeSnippetIdentifier: 2901C734-9EB0-4411-8D84-39567CB32BD1
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
