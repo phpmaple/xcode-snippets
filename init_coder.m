@@ -11,10 +11,6 @@
 	return [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil][0];
 }
 
-- (instancetype)initWithCoder:(NSCoder *)aDecoder {
-	self = [super initWithCoder:aDecoder];
-	if (self) {
-		[self setUp];
-	}
-	return self;
+- (void)awakeFromNib {
+    
 }
