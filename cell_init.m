@@ -7,10 +7,39 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
-+ (UINib *)nib {
-    return [UINib nibWithNibName:NSStringFromClass([self class]) bundle:nil];
+#pragma mark - Initialization
+
+- (void)setUp {
+    [self addSubview:[[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil][0]];
+    // Initialization code
+    
+}
+
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        [self setUp];
+    }
+    return self;
+}
+
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self setUp];
+    }
+    return self;
+}
+
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if (self) {
+        [self setUp];
+    }
+    return self;
 }
 
 - (void)awakeFromNib {
     [super awakeFromNib];
+    [self setUp];
 }
