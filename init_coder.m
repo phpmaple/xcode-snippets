@@ -10,22 +10,27 @@
 #pragma mark - Initialization
 
 - (void)setUp {
+    
+}
+
+- (void)loadNibToView {
     UIView *contentView = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil][0];
     [self addSubview:contentView];
     self.contentView = contentView;
+    [self setUp];
 }
 
 - (instancetype)initWithFrame:(CGRect)frame {
     frame = CGRectIsEmpty(frame) ? DEFAULT_FRAME : frame;
     self = [super initWithFrame:frame];
     if (self) {
-        [self setUp];
+        [self loadNibToView];
     }
     return self;
 }
 
 - (void)awakeFromNib {
-    [self setUp];
+    [self loadNibToView];
 }
 
 - (void)layoutSubviews {
