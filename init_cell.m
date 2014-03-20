@@ -9,7 +9,7 @@
 // IDECodeSnippetVersion: 0
 #pragma mark - Initialization
 
-- (void)setUp {
+- (void)loadNibToView {
     <#UIView#> *<#uiVIew#> = [[<#UIView#> alloc] init];
     [self.contentView addSubview:<#uiView#>];
     self.<#uiView#> = <#uiView#>;
@@ -18,7 +18,7 @@
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        [self setUp];
+        [self set];
     }
     return self;
 }
