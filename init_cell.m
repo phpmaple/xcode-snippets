@@ -1,6 +1,7 @@
 // init custom cell
 // init custom cell
 //
+// IDECodeSnippetCompletionPrefix: koo_init_cell
 // IDECodeSnippetCompletionScopes: [ClassImplementation]
 // IDECodeSnippetIdentifier: 0E9D8A9B-C38D-4C75-8C97-68F8F20F6AEB
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
