@@ -1,5 +1,5 @@
-// init cell
-// 
+// init custom cell
+// init custom cell
 //
 // IDECodeSnippetCompletionScopes: [ClassImplementation]
 // IDECodeSnippetIdentifier: 0E9D8A9B-C38D-4C75-8C97-68F8F20F6AEB
