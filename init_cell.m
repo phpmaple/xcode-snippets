@@ -30,5 +30,5 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    self.<#uiView#>.frame = self.frame;
+    self.<#uiView#>.size = self.size;
 }
