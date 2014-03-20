@@ -16,6 +16,7 @@
 }
 
 - (instancetype)initWithFrame:(CGRect)frame {
+    frame = CGRectIsEmpty(frame) ? DEFAULT_FRAME : frame;
     self = [super initWithFrame:frame];
     if (self) {
         [self setUp];
@@ -25,4 +26,10 @@
 
 - (void)awakeFromNib {
     [self setUp];
+}
+
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    
+    self.contentView.size = self.size;
 }
