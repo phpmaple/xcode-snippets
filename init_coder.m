@@ -10,7 +10,9 @@
 #pragma mark - Initialization
 
 - (void)setUp {
-    [self addSubview:[[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil][0]];
+    UIView *contentView = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil][0];
+    contentView.frame = self.frame;
+    [self addSubview:contentView];
     
 }
 
