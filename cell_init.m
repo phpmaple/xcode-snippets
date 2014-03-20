@@ -11,8 +11,6 @@
     return [UINib nibWithNibName:NSStringFromClass([self class]) bundle:nil];
 }
 
-- (id)initWithCoder:(NSCoder *)aDecoder {
-    self = [super initWithCoder:aDecoder];
-    //init Cell properties
-    return self;
+- (void)awakeFromNib {
+    [super awakeFromNib];
 }
