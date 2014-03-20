@@ -19,5 +19,5 @@
 }
 
 - (void)cleanUp {
-    
+    [super cleanUp];
 }
