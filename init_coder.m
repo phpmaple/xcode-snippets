@@ -11,9 +11,8 @@
 
 - (void)setUp {
     UIView *contentView = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil][0];
-    contentView.size = self.size;
     [self addSubview:contentView];
-    
+    self.contentView = contentView;
 }
 
 - (instancetype)initWithFrame:(CGRect)frame {
