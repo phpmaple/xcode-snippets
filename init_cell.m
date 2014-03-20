@@ -9,6 +9,10 @@
 // IDECodeSnippetVersion: 0
 #pragma mark - Initialization
 
+- (void)setUp {
+    
+}
+
 - (void)loadNibToView {
     <#UIView#> *<#uiVIew#> = [[<#UIView#> alloc] init];
     [self.contentView addSubview:<#uiView#>];
