@@ -7,7 +7,7 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 0
-const CGRect DEFAULT_FRAME = (CGRect){ .size={ <#width#>, <#height#> } };
+static CGRect DEFAULT_FRAME = (CGRect){ .size={ <#width#>, <#height#> } };
 
 @interface <#UIView#> ()
 
