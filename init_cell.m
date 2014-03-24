@@ -18,7 +18,7 @@
     [self.contentView addSubview:<#uiView#>];
     self.<#uiView#> = <#uiView#>;
     
-    [self set]
+    [self setUp];
 }
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
