@@ -17,6 +17,8 @@
     <#UIView#> *<#uiVIew#> = [[<#UIView#> alloc] init];
     [self.contentView addSubview:<#uiView#>];
     self.<#uiView#> = <#uiView#>;
+    
+    [self set]
 }
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
