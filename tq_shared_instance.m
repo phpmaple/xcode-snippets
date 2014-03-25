@@ -1,5 +1,5 @@
 // koo Shared Instance
-// tq shared instance
+// koo shared instance
 //
 // IDECodeSnippetCompletionPrefix: koo_sharedInstance
 // IDECodeSnippetCompletionScopes: [ClassImplementation]
