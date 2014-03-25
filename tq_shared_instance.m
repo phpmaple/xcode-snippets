@@ -1,4 +1,4 @@
-// tq Shared Instance
+// koo Shared Instance
 // tq shared instance
 //
 // IDECodeSnippetCompletionPrefix: koo_sharedInstance
@@ -7,7 +7,7 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
-+ (insta)sharedInstance {
++ (instancetype)sharedInstance {
     static id sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
