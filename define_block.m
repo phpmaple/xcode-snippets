@@ -1,5 +1,5 @@
 // define block
-// 
+// define block
 //
 // IDECodeSnippetCompletionScopes: [ClassInterfaceMethods]
 // IDECodeSnippetIdentifier: BF6C922F-0C35-40E7-9B06-94865D7183F8
