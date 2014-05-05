@@ -2,7 +2,7 @@
 // koo shared instance
 //
 // IDECodeSnippetCompletionPrefix: koo_sharedInstance
-// IDECodeSnippetCompletionScopes: [ClassImplementation]
+// IDECodeSnippetCompletionScopes: [All]
 // IDECodeSnippetIdentifier: 45D5535E-44FA-491F-8E4B-3251A46D5372
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
