@@ -1,6 +1,7 @@
 // init custom view
 // 
 //
+// IDECodeSnippetCompletionPrefix: koo_init_view
 // IDECodeSnippetCompletionScopes: [ClassImplementation]
 // IDECodeSnippetIdentifier: A6D2C9C2-A518-4F83-A089-F17909543FAC
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
