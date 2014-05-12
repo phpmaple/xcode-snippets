@@ -7,4 +7,4 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
-@property (assign, nonatomic) <#type#> <#name#>;
+@property (assign, nonatomic, readonly) <#type#> <#name#>;
