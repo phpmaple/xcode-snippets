@@ -7,6 +7,6 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
-typedef NS_ENUM(<#type#>, <#name#>) { // 对应服务器端ModelType
+typedef NS_ENUM(<#type#>, <#name#>) { 
     
 };
