@@ -1,6 +1,7 @@
 // set network image
 // 
 //
+// IDECodeSnippetCompletionPrefix: koo_setimage
 // IDECodeSnippetCompletionScopes: [CodeBlock]
 // IDECodeSnippetIdentifier: FA79BA91-18B3-4AF0-831F-81A37BE57906
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
