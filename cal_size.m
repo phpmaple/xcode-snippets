@@ -1,6 +1,7 @@
 // cal size
 // cal size
 //
+// IDECodeSnippetCompletionPrefix: koo_cal_size
 // IDECodeSnippetCompletionScopes: [CodeExpression]
 // IDECodeSnippetIdentifier: 70793BB7-300F-4ACE-8BC1-7B077F0B6AC6
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
