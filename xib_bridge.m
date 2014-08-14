@@ -1,5 +1,5 @@
 // xib bridge
-// 
+// xib bridge
 //
 // IDECodeSnippetCompletionScopes: [ClassImplementation]
 // IDECodeSnippetIdentifier: F5673EE6-099A-47F6-B6DD-47CB5E78BD1C
