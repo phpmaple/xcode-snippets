@@ -11,3 +11,30 @@
 #define EXP_SHORTHAND
 #import "Expecta.h"
 #import "OCMock.h"
+
+SpecBegin(<#name#>)
+
+describe(@"<#desc#>", ^{
+    
+    beforeAll(^{
+        
+    });
+    
+    beforeEach(^{
+        
+    });
+    
+    it(@"", ^{
+        
+    });
+    
+    afterEach(^{
+        
+    });
+    
+    afterAll(^{
+        
+    });
+});
+
+SpecEnd
