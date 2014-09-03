@@ -1,5 +1,5 @@
-// koo_import_test
-// koo_import_test
+// koo_test_resource
+// koo_test_resource
 //
 // IDECodeSnippetCompletionPrefix: koo_import_test
 // IDECodeSnippetCompletionScopes: [All]
