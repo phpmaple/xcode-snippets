@@ -11,6 +11,6 @@
        
         <#code#>
         
-        [self waitForExpectationsWithTimeout:40 handler:^(NSError *error) {
+        [self waitForExpectationsWithTimeout:20 handler:^(NSError *error) {
             NSLog(@"%@", error);
         }];
